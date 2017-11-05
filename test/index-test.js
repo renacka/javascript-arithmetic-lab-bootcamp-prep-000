@@ -66,7 +66,7 @@ describe('makeInt(n)', function() {
     expect(makeInt(a.toString())).toEqual(a)
 
     function makeInt(n){
-    number = parseInt(a.toString, 10);
+    number = parseInt('nonsense!', 10);
     return number;
 
     }
