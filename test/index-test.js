@@ -67,7 +67,7 @@ describe('makeInt(n)', function() {
 
     function makeInt(n){
     number = parseInt(a.toString, a);
-    return number;  
+    return number;
 
     }
   })
