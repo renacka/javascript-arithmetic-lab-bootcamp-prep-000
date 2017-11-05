@@ -65,7 +65,9 @@ describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
 
-    function parseInt(toString){
+    function makeInt(n){
+    number = integer(a.toString, a);
+    return number;  
 
     }
   })
